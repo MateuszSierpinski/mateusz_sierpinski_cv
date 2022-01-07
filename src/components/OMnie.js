@@ -1,40 +1,41 @@
-import React, { Component } from 'react'
+import React from 'react'
+import ImgProfile from '../zdjecia/zdjecie1.jpg'
+import { useTranslation } from 'react-i18next'
+import '../App.css'
 
-export default class OMnie extends Component {
-    render() {
-        return (
-            <div>
-                <div className='card'>
-                    {/* <div className='card-content'>
-                        <h6 className='mt-bottom'>
-                            <strong>O MNIE</strong>
-                        </h6>
-                        <p className='grey-text'>
-                            Blajhasdjhjashkdjahkjdfkghf
-                            safhdjfsahkjfsdhgfdkjhgkjhgfdskj
-                            dsakdsfakjfsgajkhfgakjfgakjjhaghkjfgd
-                            dsjhsdhjksghjkgsjkhfgskhjfgshkjdsfgkjh
-                        </p>
-                    </div> */}
-                    <div className='card-action'>
-                        <h6 className='mt-bottom'>
-                            <strong>INFORMACJE PERSONALNE</strong>
-                        </h6>
-                        <div className='col s12 m6 16 x16'>
-                            <p><strong>Data urodzenia: </strong> 05.12.1993 </p>
-                            <p><strong>Adres: </strong> Dolna 14, Piła, 64-920, Polska </p>
-                            <p><strong>E-mail: </strong> mateuszsierpinski19@gmail.com </p>
-                            <p><strong>Telefon: </strong> +48 512753831 </p>
-                        </div>
-                        <div className='s12 m6 16 x16'>
-                            <p><strong>Języki:</strong></p>
-                            <p> - Polski (Ojczysty)</p>
-                            <p> - Angielski (B2) </p>
-                            <p> - Niemiecki (telc Deutsch B1 Zertifikat) </p>                            
+export default function OMnie() {
+    const { t } = useTranslation()
+    return (
+        <div>
+            <div className='card'>
+                <div className='row'>
+                    <div className='col-sm-3'>
+                        <div className='card-image moje-zdjecie'>
+                            <img className='moje-zdjecie' src={ImgProfile} alt='Mateusz Sierpiński' />
                         </div>
                     </div>
-                 </div>   
+                    <div className='card-content col-sm-9'>
+                        <span className='card-title activator gery-text text-darken-4'>
+                            <h4 className='imie'><strong>Mateusz Sierpiński</strong> </h4>
+                        </span>
+                        <h5>{t('stanowisko')}</h5>
+                        <div className='card-action'>
+                            <div className='col'>
+                                <p><strong>{t('data_urodzenia')}</strong>{t('data_urodzenia_var')}</p>
+                                <p><strong>{t('adres')}</strong>{t('adres_var')}</p>
+                                <p><strong>{t('email')}</strong>{t('email_var')}</p>
+                                <p><strong>{t('telefon')}</strong>{t('telefon_var')}</p>
+                            </div>
+                            <div className='col'>
+                                <p><strong>{t('jezyki')}</strong></p>
+                                <p>{t('jezyk_jeden')}</p>
+                                <p>{t('jezyk_dwa')}</p>
+                                <p>{t('jezyk_trzy')}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        )
-    }
+        </div>
+    )
 }

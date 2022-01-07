@@ -1,69 +1,72 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { useTranslation } from 'react-i18next'
 
-export default class Doswiadczenie extends Component {
-    render() {
+export default function Doswiadczenie() {
+
+    const { t } = useTranslation()
+
         return (
             <div className='card'>
               <div className='card-content'>
-                <h6 className='mt-bottom'><strong>DOŚWIADCZENIE</strong></h6>
+                <h6 className='mt-bottom'><strong>{t('tytul_doswiadczenie')}</strong></h6>
                 <div className='row'>
-                    <div className='col s12 m4 l4 xl4'>
+                    <div className='col-sm-3'>
                         <p className='teal yearexp white-text'>
-                            <strong>01.08.2018 – obecnie</strong>
+                            <strong>&nbsp;{t('stanowisko_data_1')}</strong>
                         </p>
                     </div>
-                    <div className='col s12 m8 l8 xl8'>
+                    <div className='col-sm-9'>
                         <blockquote className='no-pad'>
                             <h6 className='no-pad mt-bottom'>
-                                <strong>Programista Data Processing</strong>
+                                <strong>{t('stanowisko_nazwa_1')}</strong>
                             </h6>
-                            <p className='pochyle_fonty'>Quad IT Global Solutions</p>
+                            <p className='pochyle_fonty'>{t('stanowisko_firma_1')}</p>
                             <ul>
-                                <li>{'\u2022'}  Dostosowanie danych klienta do standardów poczty amerykańskiej (USPS - United States Postal Service)</li>
-                                <li>{'\u2022'}  Przetwarzanie baz danych dostarczonych przez klientów w oprogramowaniu Pitney Bowes używając języka Groovy</li>
-                                <li>{'\u2022'}  Stworzenie aplikacji w WPF które poprawiaja wydajność i redukują ilość błedów w naszym dziale</li>
-                                <li>{'\u2022'}  Praca w międzynarodowym środowisku</li>
-                                <li>{'\u2022'}  Tooling: Groovy, Enterprise Designer Spectrum, Python 2.7, Bash 4.2.46</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_1_punkt_1')}</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_1_punkt_2')}</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_1_punkt_3')}</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_1_punkt_4')}</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_1_punkt_5')}</li>
                             </ul>
                         </blockquote>
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col s12 m4 l4 xl4'>
+                    <div className='col-sm-3'>
                         <p className='teal yearexp white-text'>
-                            <strong>01.02.2018 - 31.07.2018</strong>
+                            <strong>&nbsp;{t('stanowisko_data_2')}</strong>
                         </p>
                     </div>
-                    <div className='col s12 m8 l8 xl8'>
+                    <div className='col-sm-9'>
                         <blockquote className='no-pad'>
                             <h6 className='no-pad mt-bottom'>
-                                <strong>Direct Mailing System Specialist</strong>
+                                <strong>&nbsp;{t('stanowisko_nazwa_2')}</strong>
                             </h6>
-                            <p className='pochyle_fonty'>Poczta Polska</p>
+                            <p className='pochyle_fonty'>{t('stanowisko_firma_2')}</p>
                             <ul>
-                                <li>{'\u2022'}  Przetwarzanie baz danych dostarczonych prze klientów i wydruk na drukarkach przemysłowych</li>
-                                <li>{'\u2022'}  Tooling: Microsoft Word Mail Merge, Excel</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_2_punkt_1')}</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_2_punkt_2')}</li>
                             </ul>
                         </blockquote>
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col s12 m4 l4 xl4'>
+                    <div className='col-sm-3'>
                         <p className='teal yearexp white-text'>
-                            <strong>01.12.2016 - 01.02.2018</strong>
+                            <strong>&nbsp;{t('stanowisko_data_3')}</strong>
                         </p>
                     </div>
-                    <div className='col s12 m8 l8 xl8'>
+                    <div className='col-sm-9'>
                         <blockquote className='no-pad'>
                             <h6 className='no-pad mt-bottom'>
-                                <strong>Listonosz</strong>
+                                <strong>{t('stanowisko_nazwa_3')}</strong>
                             </h6>
-                            <p className='pochyle_fonty'>Poczta Polska</p>
+                            <p className='pochyle_fonty'>{t('stanowisko_firma_3')}</p>
                             <ul>
-                                <li>{'\u2022'}  Przygotowanie korespondencji do doręczenia</li>
-                                <li>{'\u2022'}  Doręczanie korespondencji i przekazów pieniężnych</li>
-                                <li>{'\u2022'}  Realizacja planów sprzedażowych dotyczących wybranych usług i towarów</li>
-                                <li>{'\u2022'}  Praca z ludźmi, z wykorzystaniem nowoczesnych narzędzi.</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_3_punkt_1')}</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_3_punkt_2')}</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_3_punkt_3')}</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_3_punkt_4')}</li>
                             </ul>
                         </blockquote>
                     </div>
@@ -71,5 +74,4 @@ export default class Doswiadczenie extends Component {
               </div>  
             </div>
         )
-    }
 }

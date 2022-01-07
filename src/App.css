@@ -44,3 +44,24 @@
     font-size: small;
     font-style: italic;
 }
+
+.sticky-dropdown{
+  background:transparent;
+  position:sticky;
+  top: 0px;
+  z-index: 2;
+}
+
+.moje-zdjecie{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.na_srodku{
+  text-align: center;
+  vertical-align: middle;
+}
+.imie{
+  font-size:38px
+}
