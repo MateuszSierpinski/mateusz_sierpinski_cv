@@ -2,7 +2,7 @@
     "app_title": "CV",
     "language": "Języki",
 
-    "stanowisko": "Programista Data Processing II",
+    "stanowisko": "Programista .Net",
 
     "tytul_o_mnie":"INFORMACJE PERSONALNE",
     "data_urodzenia":"Data urodzenia: ",
@@ -23,16 +23,29 @@
     "data_roz":"Data rozpoczęcia",
     "data_ukon":"Data ukończenia",
     "placowka_1":"Uniwersytet im. Kazimierza Wielkiego w Bydgoszczy",
-    "placowka_podty_1":"Informatyka - ROK IV (studia zaoczne)",
+    "placowka_podty_1":"Kierunek studiów: Informatyka",
+    "nazwa_specjalizacji":"Specjalizacja: Sieci i systemy rozproszone",
+    "temat_pracy_inz":"Temat pracy inżynierkiej: System informatyczny wspomagający biuro tłumaczeń oparty na sztucznej inteligencji",
     "placowka_data_roz_1":"2018",
-    "placowka_data_zak_1":"obecnie",
+    "placowka_data_zak_1":"2022",
     "placowka_2":"Liceum Ogólnokształcące im. Marii Curie Skłodowskiej w Pile",
     "placowka_podty_2":"Profil: Matematyczno-Informatyczny",
     "placowka_data_roz_2":"2009",
     "placowka_data_zak_2":"2012",
 
     "tytul_doswiadczenie":"DOŚWIADCZENIE",
-    "stanowisko_data_1":" 01.08.2018 – obecnie",
+
+    "stanowisko_data_0":" 01.05.2022 – obecnie",
+    "stanowisko_nazwa_0":"Programista .Net",
+    "stanowisko_firma_0":"Quad IT Global Solutions",
+    "stanowisko_opis_0_punkt_1":"Praca z technologią ASP.NET MVC technology, using HTML5, CSS3, Bootstrap, JS, jQuery",
+    "stanowisko_opis_0_punkt_2":"Tworzenie serwisów integracyjnych (Windows Services)",
+    "stanowisko_opis_0_punkt_3":"Praca nad ulepszeniami oprogramowania oraz naprawianie/badanie problemów/błędów w oprogramowaniu",
+    "stanowisko_opis_0_punkt_4":"Praca z SQL Server, OpenEdge & PostgreSQL",
+    "stanowisko_opis_0_punkt_5":"Tooling: Visual Studio 2022, Microsoft SQL Server Managment Studio 18 ,Crystal Reports",
+
+
+    "stanowisko_data_1":" 01.08.2018 – 01.05.2022",
     "stanowisko_nazwa_1":"Programista Data Processing II",
     "stanowisko_firma_1":"Quad IT Global Solutions",
     "stanowisko_opis_1_punkt_1":"Dostosowanie danych klienta do standardów poczty amerykańskiej (USPS - United States Postal Service)",

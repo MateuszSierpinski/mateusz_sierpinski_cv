@@ -12,6 +12,28 @@ export default function Doswiadczenie() {
                 <div className='row'>
                     <div className='col-sm-3'>
                         <p className='teal yearexp white-text'>
+                            <strong>&nbsp;{t('stanowisko_data_0')}</strong>
+                        </p>
+                    </div>
+                    <div className='col-sm-9'>
+                        <blockquote className='no-pad'>
+                            <h6 className='no-pad mt-bottom'>
+                                <strong>{t('stanowisko_nazwa_0')}</strong>
+                            </h6>
+                            <p className='pochyle_fonty'>{t('stanowisko_firma_0')}</p>
+                            <ul>
+                                <li>{'\u2022'}  {t('stanowisko_opis_0_punkt_1')}</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_0_punkt_2')}</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_0_punkt_3')}</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_0_punkt_4')}</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_0_punkt_5')}</li>
+                            </ul>
+                        </blockquote>
+                    </div>
+                </div>
+                <div className='row'>
+                    <div className='col-sm-3'>
+                        <p className='teal yearexp white-text'>
                             <strong>&nbsp;{t('stanowisko_data_1')}</strong>
                         </p>
                     </div>

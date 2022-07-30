@@ -45,6 +45,12 @@
     font-style: italic;
 }
 
+.pochyle_fonty_w{
+  font-size: small;
+  font-style: italic;
+  margin-top: 3px;
+}
+
 .sticky-dropdown{
   background:transparent;
   position:sticky;
@@ -55,7 +61,9 @@
 .moje-zdjecie{
   margin-top: 10px;
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 10px; 
+  width: 83%;
+  height: 93%; 
 }
 
 .na_srodku{

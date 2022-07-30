@@ -15,7 +15,7 @@ export default function Umiejetnosci() {
             <div className='col'>
               <p> C# .NET 4.8 (WPF, UWP, Xamarin, MVC) </p>
               <div className='progress grey lighten-1'>
-                <div className='determinate blue' style={{ width: '40%' }} />
+                <div className='determinate blue' style={{ width: '50%' }} />
               </div>
             </div>
             <div className='col'>
@@ -26,22 +26,22 @@ export default function Umiejetnosci() {
             </div>
             <div className="w-100"></div>
             <div className='col'>
-              <p> JavaScript, CSS, HTML (React, Angular, jQuery) </p>
+              <p> JavaScript, CSS, HTML (React, jQuery) </p>
               <div className='progress grey lighten-1'>
-                <div className='determinate blue' style={{ width: '40%' }} />
+                <div className='determinate blue' style={{ width: '50%' }} />
               </div>
             </div>
             <div className='col'>
               <p> SQL (Oracle SQL, MS SQL Server, MySQL) </p>
               <div className='progress grey lighten-1'>
-                <div className='determinate blue' style={{ width: '40%' }} />
+                <div className='determinate blue' style={{ width: '50%' }} />
               </div>
             </div>
             <div className="w-100"></div>
             <div className='col'>
               <p> Python (Django, Pandas, NumPy, Jupyter) </p>
               <div className='progress grey lighten-1'>
-                <div className='determinate blue' style={{ width: '40%' }} />
+                <div className='determinate blue' style={{ width: '50%' }} />
               </div>
             </div>
             <div className='col s6'>
