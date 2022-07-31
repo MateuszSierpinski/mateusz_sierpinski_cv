@@ -68,11 +68,12 @@ export default function Doswiadczenie() {
                             <ul>
                                 <li>{'\u2022'}  {t('stanowisko_opis_2_punkt_1')}</li>
                                 <li>{'\u2022'}  {t('stanowisko_opis_2_punkt_2')}</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_2_punkt_3')}</li>
                             </ul>
                         </blockquote>
                     </div>
                 </div>
-                <div className='row'>
+                {/* <div className='row'>
                     <div className='col-sm-3'>
                         <p className='teal yearexp white-text'>
                             <strong>&nbsp;{t('stanowisko_data_3')}</strong>
@@ -92,7 +93,7 @@ export default function Doswiadczenie() {
                             </ul>
                         </blockquote>
                     </div>
-                </div>
+                </div> */}
               </div>  
             </div>
         )
