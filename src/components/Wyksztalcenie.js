@@ -23,7 +23,6 @@ export default function Wyksztalcenie() {
                                 <ul>
                                     <li>{t('placowka_1')}</li>
                                     <li className='pochyle_fonty'>{t('placowka_podty_1')}</li>
-                                    <li className='pochyle_fonty_w'>{t('nazwa_specjalizacji')}</li>
                                     <li className='pochyle_fonty_w'>{t('temat_pracy_inz')}</li>
                                 </ul>
                             </td>

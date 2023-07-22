@@ -13,15 +13,15 @@ export default function Umiejetnosci() {
           </h6>
           <div className='row'>
             <div className='col'>
-              <p> C# .NET 4.8 (WPF, UWP, Xamarin, MVC) </p>
+              <p> C# .NET 6.0 (WPF, Xamarin, MVC, Rest API, Windows Services, Dapper, Entity Framework) </p>
               <div className='progress grey lighten-1'>
-                <div className='determinate blue' style={{ width: '50%' }} />
+                <div className='determinate blue' style={{ width: '64%' }} />
               </div>
             </div>
             <div className='col'>
               <p> Groovy (Spectrum: Enterprise Designer) </p>
               <div className='progress grey lighten-1'>
-                <div className='determinate blue' style={{ width: '70%' }} />
+                <div className='determinate blue' style={{ width: '78%' }} />
               </div>
             </div>
             <div className="w-100"></div>
@@ -32,22 +32,22 @@ export default function Umiejetnosci() {
               </div>
             </div>
             <div className='col'>
-              <p> SQL (Oracle SQL, MS SQL Server, MySQL) </p>
+              <p> SQL (Oracle SQL, MS SQL Server, MySQL, OpenEdge SQL, PostgreSQL, SQLite) </p>
               <div className='progress grey lighten-1'>
-                <div className='determinate blue' style={{ width: '50%' }} />
+                <div className='determinate blue' style={{ width: '58%' }} />
               </div>
             </div>
             <div className="w-100"></div>
             <div className='col'>
               <p> Python (Django, Pandas, NumPy, Jupyter) </p>
               <div className='progress grey lighten-1'>
-                <div className='determinate blue' style={{ width: '50%' }} />
+                <div className='determinate blue' style={{ width: '57%' }} />
               </div>
             </div>
             <div className='col s6'>
-              <p> Pakiet Microsoft Office (Word, Excel, Access, Powerpoint) </p>
+              <p> Microservices (Rest API, gRPC, ActiveMQ, Docker, Kubernetes, Polly, Steeltoe ) </p>
               <div className='progress grey lighten-1'>
-                <div className='determinate blue' style={{ width: '70%' }} />
+                <div className='determinate blue' style={{ width: '30%' }} />
               </div>
             </div>
           </div>

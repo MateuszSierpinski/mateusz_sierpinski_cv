@@ -26,7 +26,7 @@ export default function Portfolio() {
                                 <td className='na_srodku'><a href="https://github.com/MateuszSierpinski/Malform-Checker" className='btn blue lighten-2'>{t('sprawdz_link')}</a></td>
                             </tr>
                             <tr>
-                                <td>Quality Check Program (C#)</td>
+                                <td>Quality Check Application (C#)</td>
                                 <td>2020</td>
                                 <td className='na_srodku'><a href="https://github.com/MateuszSierpinski/QC" className='btn blue lighten-2'>{t('sprawdz_link')}</a></td>
                             </tr>
