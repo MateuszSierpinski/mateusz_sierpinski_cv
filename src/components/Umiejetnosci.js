@@ -1,5 +1,11 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import GroovyLogo from '../loga/Groovy-logo.png';
+import DotNetLogo from '../loga/DotNET_logo.png';
+import JavaScriptLogo from '../loga/JavaScript_logo.png';
+import PythonLogo from '../loga/Python_logo.png';
+import SQLLogo from '../loga/SQL_logo.png';
+import MicroservicesLogo from '../loga/Microservices_logo.png';
 
 
 export default function Umiejetnosci() {
@@ -8,44 +14,62 @@ export default function Umiejetnosci() {
     <div>
       <div className='card'>
         <div className='card-content'>
-          <h6>
+          <h6 style={{ marginBottom: '20px'}}>
             <strong>{t('tytul_umiejetnosci')}</strong>
           </h6>
           <div className='row'>
             <div className='col'>
-              <p> C# .NET 6.0 (WPF, Xamarin, MVC, Rest API, Windows Services, Dapper, Entity Framework) </p>
+              <p>
+                <img src={DotNetLogo}  height="35" style={{ marginRight: '10px' }} />
+                .NET 6.0 (WPF, MVC, Rest API, Windows Services, Entity Framework)
+              </p>
               <div className='progress grey lighten-1'>
                 <div className='determinate blue' style={{ width: '64%' }} />
               </div>
             </div>
-            <div className='col'>
-              <p> Groovy (Spectrum: Enterprise Designer) </p>
+            <div className='col'>              
+              <p>
+                <img src={GroovyLogo} height="35" style={{ marginRight: '10px' }} />
+                Groovy (Spectrum: Enterprise Designer) 
+              </p>
               <div className='progress grey lighten-1'>
                 <div className='determinate blue' style={{ width: '78%' }} />
               </div>
             </div>
             <div className="w-100"></div>
             <div className='col'>
-              <p> JavaScript, CSS, HTML (React, jQuery) </p>
+              <p>
+                <img src={JavaScriptLogo} height="35" style={{ marginRight: '10px' }} />  
+                JavaScript, CSS, HTML, React, jQuery 
+              </p>
               <div className='progress grey lighten-1'>
                 <div className='determinate blue' style={{ width: '50%' }} />
               </div>
             </div>
             <div className='col'>
-              <p> SQL (Oracle SQL, MS SQL Server, MySQL, OpenEdge SQL, PostgreSQL, SQLite) </p>
+              <p> 
+                <img src={SQLLogo} height="35" style={{ marginRight: '10px' }} />
+                SQL (Oracle SQL, MS SQL Server, OpenEdge SQL, PostgreSQL) 
+              </p>
               <div className='progress grey lighten-1'>
                 <div className='determinate blue' style={{ width: '58%' }} />
               </div>
             </div>
             <div className="w-100"></div>
             <div className='col'>
-              <p> Python (Django, Pandas, NumPy, Jupyter) </p>
+              <p> 
+                <img src={PythonLogo} height="35" style={{ marginRight: '10px' }} />  
+                Python (Django, Pandas, NumPy, Jupyter) 
+              </p>
               <div className='progress grey lighten-1'>
                 <div className='determinate blue' style={{ width: '57%' }} />
               </div>
             </div>
             <div className='col s6'>
-              <p> Microservices (Rest API, gRPC, ActiveMQ, Docker, Kubernetes, Polly, Steeltoe ) </p>
+              <p> 
+                <img src={MicroservicesLogo} height="35" style={{ marginRight: '10px' }} />  
+                Microservices (Rest API, gRPC, ActiveMQ, Docker, Kubernetes)
+              </p>
               <div className='progress grey lighten-1'>
                 <div className='determinate blue' style={{ width: '30%' }} />
               </div>
