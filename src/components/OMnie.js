@@ -11,7 +11,7 @@ export default function OMnie() {
                 <div className='row'>
                     <div className='col-sm-3'>
                         <div className='card-image moje-zdjecie'>
-                            <img className='moje-zdjecie' src={ImgProfile} alt='Mateusz Sierpiński' />
+                            <img className='moje-zdjecie' src={ImgProfile} alt='Moje Zdjecie' />
                         </div>
                     </div>
                     <div className='card-content col-sm-9'>
@@ -26,7 +26,7 @@ export default function OMnie() {
                                 <p><strong>{t('email')}</strong>{t('email_var')}</p>
                                 <p><strong>{t('telefon')}</strong>{t('telefon_var')}</p>
                             </div>
-                            <div className='col'>
+                            <div className='col' style={{marginLeft: 70}}>
                                 <p><strong>{t('jezyki')}</strong></p>
                                 <p>{t('jezyk_jeden')}</p>
                                 <p>{t('jezyk_dwa')}</p>

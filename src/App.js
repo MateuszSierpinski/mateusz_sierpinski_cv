@@ -10,7 +10,7 @@ export default function App() {
       <div className="sticky-dropdown">
         <DropdownJezyki />
       </div>
-      <div className='cv-overlay'>
+      <div className='cv-overlay' id="pdf-content" >
         <CV />
       </div>
     </section>

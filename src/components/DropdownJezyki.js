@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+import { useReactToPrint } from 'react-to-print';
+import { BsPrinterFill } from 'react-icons/bs';
 import i18next from 'i18next'
 import cookies from 'js-cookie'
 import classNames from 'classnames'
@@ -7,6 +9,8 @@ import 'bootstrap/dist/js/bootstrap.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../App.css'
 import 'flag-icon-css/css/flag-icons.min.css'
+
+
 
 
 const languages = [
@@ -29,13 +33,22 @@ const languages = [
 
 export default function DropdownJezyki() {
 
-  const currentLanguageCode = cookies.get('i18next') || 'en'
-  const currentLanguage = languages.find((l) => l.code === currentLanguageCode)
-  const { t } = useTranslation()
+  const currentLanguageCode = cookies.get('i18next') || 'en';
+  const currentLanguage = languages.find((l) => l.code === currentLanguageCode);
+  const { t } = useTranslation();
 
   useEffect(() => {
-    document.title = t('app_title')
-  }, [currentLanguage, t])
+    document.title = t('app_title');
+  }, [currentLanguage, t]);
+
+
+  
+  const handlePrint = useReactToPrint({
+      content: () => document.getElementById('pdf-content'),
+      documentTitleOptions: {
+        orientation: 'portrait', // Orientacja wydruku (domyślnie 'portrait')
+        scale: 30} // Skala wydruku w procentach (30%)
+    });
 
   return (
     <div>
@@ -55,8 +68,7 @@ export default function DropdownJezyki() {
           </li>
           {languages.map(({ code, name, country_code }) => (
             <li key={country_code}>
-              <a
-                href="#"
+              <button
                 className={classNames('dropdown-item', {
                   disabled: currentLanguageCode === code,
                 })}
@@ -71,9 +83,16 @@ export default function DropdownJezyki() {
                   }}
                 ></span>
                 {name}
-              </a>
+              </button>
             </li>
           ))}
+          <li>
+          <button className={classNames('dropdown-item')} 
+              onClick={handlePrint}>
+              <BsPrinterFill  size={18} style={{ marginLeft: 10 , marginRight: 8 }} />
+              <span>Drukuj</span>
+            </button>
+            </li>
         </ul>
       </div>
     </div>

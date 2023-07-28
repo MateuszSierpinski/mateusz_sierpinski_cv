@@ -20,7 +20,7 @@ export default function Umiejetnosci() {
           <div className='row'>
             <div className='col'>
               <p>
-                <img src={DotNetLogo}  height="35" style={{ marginRight: '10px' }} />
+                <img src={DotNetLogo}  height="35" style={{ marginRight: '10px' }} alt='NetLogo' />
                 .NET 6.0 (WPF, MVC, Rest API, Windows Services, Entity Framework)
               </p>
               <div className='progress grey lighten-1'>
@@ -29,7 +29,7 @@ export default function Umiejetnosci() {
             </div>
             <div className='col'>              
               <p>
-                <img src={GroovyLogo} height="35" style={{ marginRight: '10px' }} />
+                <img src={GroovyLogo} height="35" style={{ marginRight: '10px' }} alt='GrvLogo' />
                 Groovy (Spectrum: Enterprise Designer) 
               </p>
               <div className='progress grey lighten-1'>
@@ -39,7 +39,7 @@ export default function Umiejetnosci() {
             <div className="w-100"></div>
             <div className='col'>
               <p>
-                <img src={JavaScriptLogo} height="35" style={{ marginRight: '10px' }} />  
+                <img src={JavaScriptLogo} height="35" style={{ marginRight: '10px' }}  alt='JsLogo'/>  
                 JavaScript, CSS, HTML, React, jQuery 
               </p>
               <div className='progress grey lighten-1'>
@@ -48,7 +48,7 @@ export default function Umiejetnosci() {
             </div>
             <div className='col'>
               <p> 
-                <img src={SQLLogo} height="35" style={{ marginRight: '10px' }} />
+                <img src={SQLLogo} height="35" style={{ marginRight: '10px' }} alt='SqlLogo'/>
                 SQL (Oracle SQL, MS SQL Server, OpenEdge SQL, PostgreSQL) 
               </p>
               <div className='progress grey lighten-1'>
@@ -58,7 +58,7 @@ export default function Umiejetnosci() {
             <div className="w-100"></div>
             <div className='col'>
               <p> 
-                <img src={PythonLogo} height="35" style={{ marginRight: '10px' }} />  
+                <img src={PythonLogo} height="35" style={{ marginRight: '10px' }} alt='PyLogo' />  
                 Python (Django, Pandas, NumPy, Jupyter) 
               </p>
               <div className='progress grey lighten-1'>
@@ -67,7 +67,7 @@ export default function Umiejetnosci() {
             </div>
             <div className='col s6'>
               <p> 
-                <img src={MicroservicesLogo} height="35" style={{ marginRight: '10px' }} />  
+                <img src={MicroservicesLogo} height="35" style={{ marginRight: '10px' }}  alt='MicLogo'/>  
                 Microservices (Rest API, gRPC, ActiveMQ, Docker, Kubernetes)
               </p>
               <div className='progress grey lighten-1'>
