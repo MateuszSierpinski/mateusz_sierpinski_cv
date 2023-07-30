@@ -41,8 +41,9 @@
 .moje-zdjecie{
   margin-left: 5px;
   margin-right: 5px; 
-  margin-bottom: -20px;
-  scale: 0.97;
+  margin-bottom: -22px;
+  margin-top: -20px;
+  scale: 0.92;
 }
 
 .na_srodku{

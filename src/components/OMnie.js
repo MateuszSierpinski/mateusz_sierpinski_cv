@@ -8,13 +8,13 @@ export default function OMnie() {
     return (
         <div>
             <div className='card'>
-                <div className='row'>
+                <div className='row' style={{margin:0}}>
                     <div className='col-sm-3'>
                         <div className='card-image moje-zdjecie'>
                             <img className='moje-zdjecie' src={ImgProfile} alt='Moje Zdjecie' />
                         </div>
                     </div>
-                    <div className='card-content col-sm-9'>
+                    <div className='card-content col-sm-9' style={{margin:0}}>
                         <span className='card-title activator gery-text text-darken-4'>
                             <h4 className='imie'><strong>Mateusz Sierpiński</strong> </h4>
                         </span>
