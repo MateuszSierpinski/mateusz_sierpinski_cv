@@ -21,10 +21,10 @@ export default function Umiejetnosci() {
             <div className='col'>
               <p>
                 <img src={DotNetLogo}  height="35" style={{ marginRight: '10px' }} alt='NetLogo' />
-                .NET 6.0 (WPF, MVC, Rest API, Windows Services, Entity Framework)
+                .NET 8.0 (WPF, MVC, Rest API, Windows Services, Entity Framework, Blazor)
               </p>
               <div className='progress grey lighten-1'>
-                <div className='determinate blue' style={{ width: '64%' }} />
+                <div className='determinate blue' style={{ width: '75%' }} />
               </div>
             </div>
             <div className='col'>              
@@ -33,7 +33,7 @@ export default function Umiejetnosci() {
                 Groovy (Spectrum: Enterprise Designer) 
               </p>
               <div className='progress grey lighten-1'>
-                <div className='determinate blue' style={{ width: '78%' }} />
+                <div className='determinate blue' style={{ width: '70%' }} />
               </div>
             </div>
             <div className="w-100"></div>
@@ -43,7 +43,7 @@ export default function Umiejetnosci() {
                 JavaScript, CSS, HTML, React, jQuery 
               </p>
               <div className='progress grey lighten-1'>
-                <div className='determinate blue' style={{ width: '50%' }} />
+                <div className='determinate blue' style={{ width: '60%' }} />
               </div>
             </div>
             <div className='col'>

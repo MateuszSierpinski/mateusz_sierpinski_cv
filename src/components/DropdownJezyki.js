@@ -47,7 +47,8 @@ export default function DropdownJezyki() {
       content: () => document.getElementById('pdf-content'),
       documentTitleOptions: {
         orientation: 'portrait', // Orientacja wydruku (domyślnie 'portrait')
-        scale: 30} // Skala wydruku w procentach (30%)
+        scale: 30,} // Skala wydruku w procentach (30%)
+        // Najlepiej ustawic chyba A2
     });
 
   return (

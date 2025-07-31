@@ -1,5 +1,8 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import BGKLogo from '../loga/BGK_logo2.jpg';
+import QuadLogo from '../loga/Quad_Logo.jpg';
+import PocztaLogo from '../loga/Poczta_Logo.png';
 
 export default function Doswiadczenie() {
 
@@ -12,11 +15,40 @@ export default function Doswiadczenie() {
                 <div className='row'>
                     <div className='col-sm-3'>
                         <p className='teal yearexp white-text'>
-                            <strong>&nbsp;{t('stanowisko_data_0')}</strong>
+                            <strong>&nbsp;{t('stanowisko_data_4')}</strong>
                         </p>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}>
+                            <img src={BGKLogo} height="70" alt='BgkLogo' style={{ marginTop: '30px' }}/>  
+                        </div>
                     </div>
                     <div className='col-sm-9'>
+                        <blockquote className='no-pad'>                                    
+                            <h6 className='no-pad mt-bottom'>
+                                <strong>{t('stanowisko_nazwa_4')}</strong>
+                            </h6>
+                            <p className='pochyle_fonty'>{t('stanowisko_firma_4')}</p>
+                            <ul>
+                                <li>{'\u2022'}  {t('stanowisko_opis_4_punkt_1')}</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_4_punkt_2')}</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_4_punkt_3')}</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_4_punkt_4')}</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_4_punkt_5')}</li>
+                            </ul>
+                        </blockquote>
+                    </div>
+                </div>
+                <div className='row'>
+                <div className='col-sm-3'>
+                    <p className='teal yearexp white-text'>
+                        <strong>&nbsp;{t('stanowisko_data_0')}</strong>                       
+                    </p>
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        <img src={QuadLogo} height="70" alt='QuadLogo' style={{ marginTop: '30px' }}/>  
+                    </div>
+                </div>
+                    <div className='col-sm-9'>
                         <blockquote className='no-pad'>
+                        
                             <h6 className='no-pad mt-bottom'>
                                 <strong>{t('stanowisko_nazwa_0')}</strong>
                             </h6>
@@ -36,6 +68,9 @@ export default function Doswiadczenie() {
                         <p className='teal yearexp white-text'>
                             <strong>&nbsp;{t('stanowisko_data_1')}</strong>
                         </p>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}>
+                            <img src={QuadLogo} height="70" alt='QuadLogo' style={{ marginTop: '30px' }}/>  
+                        </div>
                     </div>
                     <div className='col-sm-9'>
                         <blockquote className='no-pad'>
@@ -58,6 +93,9 @@ export default function Doswiadczenie() {
                         <p className='teal yearexp white-text'>
                             <strong>&nbsp;{t('stanowisko_data_2')}</strong>
                         </p>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}>
+                            <img src={PocztaLogo} height="70" alt='PocztaLogo' style={{ marginTop: '30px' }}/>  
+                        </div>
                     </div>
                     <div className='col-sm-9'>
                         <blockquote className='no-pad'>
@@ -69,6 +107,7 @@ export default function Doswiadczenie() {
                                 <li>{'\u2022'}  {t('stanowisko_opis_2_punkt_1')}</li>
                                 <li>{'\u2022'}  {t('stanowisko_opis_2_punkt_2')}</li>
                                 <li>{'\u2022'}  {t('stanowisko_opis_2_punkt_3')}</li>
+                                <li>{'\u2022'}  {t('stanowisko_opis_2_punkt_4')}</li>
                             </ul>
                         </blockquote>
                     </div>

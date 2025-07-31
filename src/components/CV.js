@@ -19,7 +19,6 @@ export default class CV extends React.Component {
                             <Wyksztalcenie />
                             <Doswiadczenie />
                             <Umiejetnosci />
-                            <Portfolio />
                             <DodatkoweUmiejetnosci />
                             {/* <p>*Wyrażam zgodę na przetwarzanie i przechowywanie moich danych osobowych przez Career Hub Ltd z siedzibą w Londynie (20-22 Wenlock Road, N1 7GU) oraz jej zaufanych partnerów biznesowych, w celu przeprowadzenia aktualnych i przyszłych procesów rekrutacyjnych. Moja zgoda na przetwarzanie danych jest ważna do odwołania.</p> */}
                         </div>

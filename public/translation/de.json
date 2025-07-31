@@ -2,7 +2,7 @@
     "app_title": "Lebenslauf ",
     "language": "Sprachen",
 
-    "stanowisko": "Software Engineer I",
+    "stanowisko": "Experte für Risikomanagement-Tools",
 
     "tytul_o_mnie":"PERSÖNLICHE INFORMATIONEN",
     "data_urodzenia":"Geburtsdatum: ",
@@ -56,7 +56,8 @@
     "stanowisko_firma_2":"Polnische Post",
     "stanowisko_opis_2_punkt_1":"Verarbeitung von Kundendatenbanken",
     "stanowisko_opis_2_punkt_2":"Wartung und Service des Drucks auf Industriedruckern",
-    "stanowisko_opis_2_punkt_3":"Tooling: Microsoft Word Mail Merge, Excel",
+    "stanowisko_opis_2_punkt_3":"Programowanie wydruku używając języka CPCL w drukarkach przemysłowych marki Canon",
+    "stanowisko_opis_2_punkt_4":"Tooling: Microsoft Word Mail Merge, Excel",
     "stanowisko_data_3":" 01.12.2016 - 01.02.2018",
     "stanowisko_nazwa_3":"Briefträger",
     "stanowisko_firma_3":"Polnische Post",
@@ -64,6 +65,14 @@
     "stanowisko_opis_3_punkt_2":"Zustellung von Korrespondenz und Zahlungsanweisungen",
     "stanowisko_opis_3_punkt_3":"Umsetzung von Verkaufsplänen für ausgewählte Dienstleistungen und Waren",
     "stanowisko_opis_3_punkt_4":"Arbeiten mit Menschen, die moderne Tools verwenden",
+    "stanowisko_data_4": "01.01.2024 – aktuell",
+    "stanowisko_nazwa_4": "Spezialist für Risikomanagement-Tools ➨ Experte für Risikomanagement-Tools",
+    "stanowisko_firma_4": "Nationale Entwicklungsbank (Bank Gospodarstwa Krajowego)",
+    "stanowisko_opis_4_punkt_1": "Entwicklung von Tools zur Risiko- und Kundenüberwachung sowie von Anwendungen zum Vermögensschutz und zur Immobilienverwaltung",
+    "stanowisko_opis_4_punkt_2": "Integration externer APIs zur Erweiterung der Risikoanalyse und zum effizienten Datenaustausch zwischen Systemen",
+    "stanowisko_opis_4_punkt_3": "Arbeit mit .NET-Technologien (MVC, Rest API, Blazor WebAssembly) sowie HTML5, CSS3, JS, jQuery, Telerik UI for Blazor",
+    "stanowisko_opis_4_punkt_4": "Arbeit mit SQL Server und Oracle-Datenbanken",
+    "stanowisko_opis_4_punkt_5": "Werkzeuge: Visual Studio 2022, Microsoft SQL Server Management Studio 18, Oracle SQL Developer, Telerik Reporting",
 
     "tytul_portfolio":"PORTFOLIO",
     "tytul_tabelka_1":"Projektname",

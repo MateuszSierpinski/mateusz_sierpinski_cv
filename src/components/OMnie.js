@@ -26,7 +26,7 @@ export default function OMnie() {
                                 <p><strong>{t('email')}</strong>{t('email_var')}</p>
                                 <p><strong>{t('telefon')}</strong>{t('telefon_var')}</p>
                             </div>
-                            <div className='col' style={{marginLeft: 70}}>
+                            <div className='col' style={{marginLeft: 100}}>
                                 <p><strong>{t('jezyki')}</strong></p>
                                 <p>{t('jezyk_jeden')}</p>
                                 <p>{t('jezyk_dwa')}</p>
